@@ -87,5 +87,4 @@ smk-boe
 
 Last updated: August 13, 2025
 Current academic year: 2025/2026
-Data format: NIS (20250001-20250312), Name, Class, Score# smk-boe
-# smk-boe
+Data format: NIS (20250001-20250312), Name, Class, Score
