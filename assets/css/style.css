@@ -1,0 +1,52 @@
+/* This file contains custom styles for the website, allowing for specific design elements that complement the Bootstrap framework. */
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7ff;
+    color: #001BB7;
+}
+
+/* Header styles */
+    background-color: #001BB7;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    margin: 20px 0;
+}
+
+    color: #001BB7;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+    background-color: #001BB7;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Custom button styles */
+/* Custom button styles */
+.btn-custom {
+    background-color: #001BB7;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #001090;
+}
+
+/* Additional styles can be added below */

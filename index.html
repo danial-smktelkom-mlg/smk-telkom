@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK BOE Malang</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <script src="assets/js/config.js"></script>
+    <style>
+        :root {
+            --primary-color: #001BB7;
+            --primary-dark: #001694;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hover-scale {
+            transition: transform 0.3s ease;
+        }
+        .hover-scale:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="scroll-smooth">
+    <header class="fixed w-full z-50">
+        <nav class="bg-white/90 backdrop-blur-md shadow-md">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between h-16">
+                    <div class="flex items-center">
+                                                <a href="index.html" class="text-2xl font-bold text-primary hover:text-primary-dark transition duration-300">
+                            SMK BOE Malang
+                        </a>
+                    </div>
+                    <div class="hidden md:flex items-center space-x-8">
+                        <a href="index.html" class="text-gray-900 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">Home</a>
+                        <a href="pages/about.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">About</a>
+                        <a href="pages/academic.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">Academic</a>
+                        <a href="pages/admission.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">Admission</a>
+                        <a href="pages/contact.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">Contact</a>
+                        <a href="pages/extracurricular.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">Extracurricular</a>
+                        <a href="pages/facilities.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">Facilities</a>
+                        <a href="pages/news.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">News</a>
+                                                <a href="pages/ai-chat.html" class="text-white px-3 py-2 text-sm font-medium rounded-md transition duration-300" style="background-color:#001BB7;" onmouseover="this.style.backgroundColor='#001090'" onmouseout="this.style.backgroundColor='#001BB7'">AI Chat</a>
+                    </div>
+                    <div class="md:hidden flex items-center">
+                        <button class="text-gray-600 hover:text-gray-900 focus:outline-none" id="mobile-menu-button">
+                            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <!-- Mobile menu -->
+                <div class="hidden md:hidden" id="mobile-menu">
+                    <div class="px-2 pt-2 pb-3 space-y-1">
+                        <a href="index.html" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-primary transition duration-300">Home</a>
+                        <a href="pages/about.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary transition duration-300">About</a>
+                        <a href="pages/academic.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary transition duration-300">Academic</a>
+                        <a href="pages/admission.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary transition duration-300">Admission</a>
+                        <a href="pages/contact.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary transition duration-300">Contact</a>
+                        <a href="pages/extracurricular.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary transition duration-300">Extracurricular</a>
+                        <a href="pages/facilities.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary transition duration-300">Facilities</a>
+                        <a href="pages/news.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary transition duration-300">News</a>
+                        <a href="pages/ai-chat.html" class="block px-3 py-2 text-base font-medium text-white rounded-md transition duration-300" style="background-color:#001BB7;">AI Chat</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative bg-[url('https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-1.2.1&auto=format&fit=crop&q=80')] bg-cover bg-center h-screen">
+            <div class="absolute inset-0 bg-gradient-to-r from-black/70 to-black/50"></div>
+            <div class="relative z-10 flex flex-col justify-center items-center h-full text-white px-4">
+                <h1 class="text-5xl md:text-6xl font-bold mb-4 text-center" data-aos="fade-down">Welcome to SMK BOE Malang</h1>
+                <p class="text-xl md:text-2xl mb-8 max-w-2xl text-center" data-aos="fade-up" data-aos-delay="100">
+                    Attitude is everything. We are dedicated to providing quality education in the
+                    field of Information Technology.
+                </p>
+                <div class="flex gap-4" data-aos="fade-up" data-aos-delay="200">
+                    <a href="pages/admission.html" class="text-white px-8 py-3 rounded-md transition duration-300 transform hover:scale-105" style="background-color:#001BB7;" onmouseover="this.style.backgroundColor='#001090'" onmouseout="this.style.backgroundColor='#001BB7'">Apply Now</a>
+                    <a href="pages/about.html" class="border border-white hover:bg-white hover:text-black px-8 py-3 rounded-md transition duration-300 transform hover:scale-105">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-sm text-primary font-semibold tracking-wide uppercase">WHY CHOOSE US</h2>
+                    <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Excellence in Education</h3>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="text-center" data-aos="fade-up">
+                        <div class="bg-[#b3bfff] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-[#001BB7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Quality Education</h3>
+                        <p class="text-gray-600">Modern curriculum designed to meet industry standards and prepare students for future success.</p>
+                    </div>
+
+                    <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                        <div class="bg-[#b3bfff] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-[#001BB7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Modern Facilities</h3>
+                        <p class="text-gray-600">State-of-the-art computer labs, workshops, and learning spaces for optimal learning experience.</p>
+                    </div>
+
+                    <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+                        <div class="bg-[#b3bfff] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-[#001BB7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Expert Teachers</h3>
+                        <p class="text-gray-600">Experienced educators dedicated to nurturing student growth and development.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest News Section -->
+        <section class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-sm text-[#001BB7] font-semibold tracking-wide uppercase">LATEST UPDATES</h2>
+                    <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">School News & Events</h3>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300 transform hover:scale-[1.02]" data-aos="fade-up">
+                        <img src="https://images.unsplash.com/photo-1543269664-56d93c1b41a6?ixlib=rb-1.2.1&auto=format&fit=crop&q=80" alt="Student Awards" class="w-full h-56 object-cover hover:scale-105 transition duration-500">
+                        <div class="p-6">
+                            <div class="text-xs text-[#001BB7] font-semibold mb-2">August 10, 2025</div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Student Achievement Awards</h3>
+                            <p class="text-gray-600 mb-4">Celebrating our students' outstanding achievements in academics and competitions.</p>
+                            <a href="#" class="inline-flex items-center text-[#001BB7] hover:text-[#001090] font-medium group">
+                                Read More 
+                                <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300 transform hover:scale-[1.02]" data-aos="fade-up" data-aos-delay="100">
+                        <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-1.2.1&auto=format&fit=crop&q=80" alt="Tech Innovation" class="w-full h-56 object-cover hover:scale-105 transition duration-500">
+                        <div class="p-6">
+                            <div class="text-xs text-[#001BB7] font-semibold mb-2">August 8, 2025</div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Technology Innovation Fair</h3>
+                            <p class="text-gray-600 mb-4">Annual showcase of student projects and technological innovations.</p>
+                            <a href="#" class="inline-flex items-center text-[#001BB7] hover:text-[#001090] font-medium group">
+                                Read More 
+                                <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300 transform hover:scale-[1.02]" data-aos="fade-up" data-aos-delay="200">
+                        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&q=80" alt="Campus Development" class="w-full h-56 object-cover hover:scale-105 transition duration-500">
+                        <div class="p-6">
+                            <div class="text-xs text-[#001BB7] font-semibold mb-2">August 5, 2025</div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Campus Development Update</h3>
+                            <p class="text-gray-600 mb-4">New facilities and improvements to enhance the learning experience.</p>
+                            <a href="#" class="inline-flex items-center text-[#001BB7] hover:text-[#001090] font-medium group">
+                                Read More 
+                                <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">SMK BOE Malang</h3>
+                    <p class="text-gray-400">Shaping the future through technology and innovation</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition duration-300">Home</a></li>
+                        <li><a href="pages/about.html" class="text-gray-400 hover:text-white transition duration-300">About</a></li>
+                        <li><a href="pages/academic.html" class="text-gray-400 hover:text-white transition duration-300">Academic</a></li>
+                        <li><a href="pages/admission.html" class="text-gray-400 hover:text-white transition duration-300">Admission</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Programs</h3>
+                    <ul class="space-y-2">
+                        <li><a href="pages/departments/rpl.html" class="text-gray-400 hover:text-white transition duration-300">Software Engineering</a></li>
+                        <li><a href="pages/departments/tkj.html" class="text-gray-400 hover:text-white transition duration-300">Computer Networking</a></li>
+                        <li><a href="pages/departments/pg.html" class="text-gray-400 hover:text-white transition duration-300">Game Development</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>Alamat: Jl. Teluk Mandar Tromol Pos 5, 65126 Ajosari-Malang, Jawa Timur</li>
+                        <li>Email: bbppmpvboe@kemdikbud.go.id</li>
+                        <li>Email Pengaduan: pengaduanp4tkboe@kemdikbud.go.id</li>
+                        <li>Telepon: (0341) 491239, 495849</li>
+                        <li>Fax: (0341) 491342</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 SMK BOE Malang. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- Chat Button and Modal -->
+    <button id="chatButton" class="fixed bottom-4 right-4 flex items-center gap-2 px-6 py-3 text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 z-[60]" style="background-color:#001BB7;" onmouseover="this.style.backgroundColor='#001090'" onmouseout="this.style.backgroundColor='#001BB7'">
+        <i class="fas fa-comment-dots"></i>
+        <span class="font-medium whitespace-nowrap">Chat dengan AI</span>
+    </button>
+
+    <!-- Chat Modal -->
+    <div id="chatModal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-[70]">
+        <div class="bg-white rounded-lg shadow-xl w-11/12 md:w-3/4 lg:w-1/2 max-w-2xl relative">
+            <!-- Modal Header -->
+            <div class="flex items-center justify-between p-4 border-b">
+                <h3 class="text-xl font-semibold text-gray-900">Chat dengan AI Assistant</h3>
+                <button id="closeModal" class="text-gray-400 hover:text-gray-500">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <!-- Modal Content -->
+            <div class="p-6">
+                <p class="text-gray-600 mb-6">Pilih cara untuk memulai chat:</p>
+                <div class="flex flex-col space-y-4">
+                    <a href="pages/ai-chat.html" class="inline-flex items-center justify-center px-6 py-3 text-white rounded-lg transition-all duration-300" style="background-color:#001BB7;" onmouseover="this.style.backgroundColor='#001090'" onmouseout="this.style.backgroundColor='#001BB7'">
+                        <i class="fas fa-comments mr-2"></i>
+                        Mulai Chat di Halaman Baru
+                    </a>
+                    <button onclick="startChatInline()" class="inline-flex items-center justify-center px-6 py-3 border-2 border-[#001BB7] text-[#001BB7] hover:bg-[#001BB7] hover:text-white rounded-lg transition-all duration-300">
+                        <i class="fas fa-message mr-2"></i>
+                        Chat di Halaman Ini
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Chat Modal functionality
+        const chatButton = document.getElementById('chatButton');
+        const chatModal = document.getElementById('chatModal');
+        const closeModal = document.getElementById('closeModal');
+
+        chatButton.addEventListener('click', () => {
+            chatModal.classList.remove('hidden');
+            chatModal.classList.add('flex');
+        });
+
+        closeModal.addEventListener('click', () => {
+            chatModal.classList.add('hidden');
+            chatModal.classList.remove('flex');
+        });
+
+        // Close modal when clicking outside
+        chatModal.addEventListener('click', (e) => {
+            if (e.target === chatModal) {
+                chatModal.classList.add('hidden');
+                chatModal.classList.remove('flex');
+            }
+        });
+
+        // Function to start inline chat (to be implemented)
+        function startChatInline() {
+            // Implement inline chat functionality here
+            alert('Fitur chat inline akan segera hadir!');
+        }
+
+        // Mobile menu functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+
+            // Initialize AOS
+            AOS.init({
+                duration: 800,
+                once: true
+            });
+        });
+    </script>
+</body>
+</html>

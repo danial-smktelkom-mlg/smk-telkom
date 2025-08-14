@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer & Network Engineering (TKJ) - SMK BOE Malang</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../../assets/js/config.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hover-scale {
+            transition: transform 0.3s ease;
+        }
+        .hover-scale:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="scroll-smooth">
+    <header class="fixed w-full z-50">
+        <nav class="bg-white/90 backdrop-blur-md shadow-md">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between h-16">
+                    <div class="flex items-center">
+                        <a href="../../index.html" class="text-2xl font-bold" style="color:#001BB7; transition:color 0.3s;">
+                            SMK BOE Malang
+                        </a>
+                    </div>
+                    <div class="hidden md:flex items-center space-x-8">
+                        <a href="../../index.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">Home</a>
+                        <a href="../about.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">About</a>
+                        <a href="../academic.html" class="text-gray-900 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">Academic</a>
+                        <a href="../admission.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">Admission</a>
+                        <a href="../contact.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">Contact</a>
+                        <a href="../extracurricular.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">Extracurricular</a>
+                        <a href="../facilities.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">Facilities</a>
+                        <a href="../news.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">News</a>
+                        <a href="../ai-chat.html" class="text-white px-3 py-2 text-sm font-medium rounded-md transition duration-300" style="background-color:#001BB7;" onmouseover="this.style.backgroundColor='#001090'" onmouseout="this.style.backgroundColor='#001BB7'">AI Chat</a>
+                    </div>
+                    <div class="md:hidden flex items-center">
+                        <button class="text-gray-600 hover:text-gray-900 focus:outline-none" id="mobile-menu-button">
+                            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <!-- Mobile menu -->
+                <div class="hidden md:hidden" id="mobile-menu">
+                    <div class="px-2 pt-2 pb-3 space-y-1">
+                        <a href="../../index.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary transition duration-300">Home</a>
+                        <a href="../about.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary transition duration-300">About</a>
+                        <a href="../academic.html" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-primary transition duration-300">Academic</a>
+                        <a href="../admission.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary transition duration-300">Admission</a>
+                        <a href="../contact.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary transition duration-300">Contact</a>
+                        <a href="../extracurricular.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary transition duration-300">Extracurricular</a>
+                        <a href="../facilities.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary transition duration-300">Facilities</a>
+                        <a href="../news.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary transition duration-300">News</a>
+                        <a href="../ai-chat.html" class="block px-3 py-2 text-base font-medium text-white rounded-md transition duration-300" style="background-color:#001BB7;">AI Chat</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pt-20 pb-16 px-4 sm:px-6 lg:px-8">
+        <!-- Hero Section -->
+        <div class="relative bg-gray-900 py-16 mb-12 rounded-xl overflow-hidden" data-aos="fade-up">
+            <div class="absolute inset-0">
+                <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-1.2.1&auto=format&fit=crop&q=80" alt="Computer & Network Engineering">
+                <div class="absolute inset-0 bg-gray-900/70"></div>
+            </div>
+            <div class="relative max-w-7xl mx-auto text-center">
+                <h1 class="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+                    Computer & Network Engineering (TKJ)
+                </h1>
+                <p class="mt-6 max-w-2xl mx-auto text-xl text-gray-300">
+                    Build and secure the digital infrastructure of tomorrow
+                </p>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto">
+            <!-- Program Description -->
+            <section class="mb-12" data-aos="fade-up">
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-6">Program Description</h2>
+                    <p class="text-gray-600 mb-6">
+                        The Computer & Network Engineering program (TKJ) at SMK BOE Malang provides comprehensive training in computer networking, system administration, and cybersecurity. Students learn to design, implement, and maintain network infrastructure while developing skills in network security and troubleshooting.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-4">What You'll Learn</h3>
+                            <ul class="space-y-3">
+                                <li class="flex items-start">
+                                    <svg class="h-6 w-6 mr-2 flex-shrink-0" fill="none" stroke="#001BB7" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    <span class="text-gray-600">Network Infrastructure Design</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="h-6 w-6 mr-2 flex-shrink-0" fill="none" stroke="#001BB7" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    <span class="text-gray-600">System Administration</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="h-6 w-6 text-red-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    <span class="text-gray-600">Network Security</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="h-6 w-6 text-red-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    <span class="text-gray-600">Cloud Computing</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-4">Career Opportunities</h3>
+                            <ul class="space-y-3">
+                                <li class="flex items-start">
+                                    <svg class="h-6 w-6 text-red-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    <span class="text-gray-600">Network Administrator</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="h-6 w-6 text-red-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    <span class="text-gray-600">System Administrator</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="h-6 w-6 text-red-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    <span class="text-gray-600">Security Specialist</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="h-6 w-6 text-red-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    <span class="text-gray-600">Network Engineer</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Features -->
+            <section class="mb-12" data-aos="fade-up">
+                <h2 class="text-2xl font-bold text-gray-900 mb-8">Program Features</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-xl shadow-lg p-6">
+                        <div class="w-12 h-12 rounded-full flex items-center justify-center mb-4" style="background-color:#b3bfff;">
+                            <svg class="h-6 w-6" fill="none" stroke="#001BB7" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Industry-Standard Labs</h3>
+                        <p class="text-gray-600">Access to modern networking equipment and simulation tools.</p>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-lg p-6">
+                        <div class="w-12 h-12 rounded-full flex items-center justify-center mb-4" style="background-color:#b3bfff;">
+                            <svg class="h-6 w-6" fill="none" stroke="#001BB7" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Certifications</h3>
+                        <p class="text-gray-600">Preparation for industry-recognized networking certifications.</p>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-lg p-6">
+                        <div class="w-12 h-12 rounded-full flex items-center justify-center mb-4" style="background-color:#b3bfff;">
+                            <svg class="h-6 w-6" fill="none" stroke="#001BB7" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Internship Programs</h3>
+                        <p class="text-gray-600">Opportunities to work with leading IT companies.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Section -->
+            <section class="rounded-xl shadow-xl overflow-hidden" style="background-color:#001BB7;" data-aos="fade-up">
+                <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 lg:flex lg:items-center lg:justify-between">
+                    <h2 class="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
+                        <span class="block">Ready to start your journey?</span>
+                        <span class="block" style="color:#b3bfff;">Join our Computer & Network Engineering program today.</span>
+                    </h2>
+                    <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+                        <div class="inline-flex rounded-md shadow">
+                            <a href="../admission.html" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md bg-white" style="color:#001BB7;">
+                                Apply Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">SMK BOE Malang</h3>
+                    <p class="text-gray-400">Shaping the future through technology and innovation</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="../../index.html" class="text-gray-400 hover:text-white transition duration-300">Home</a></li>
+                        <li><a href="../about.html" class="text-gray-400 hover:text-white transition duration-300">About</a></li>
+                        <li><a href="../academic.html" class="text-gray-400 hover:text-white transition duration-300">Academic</a></li>
+                        <li><a href="../admission.html" class="text-gray-400 hover:text-white transition duration-300">Admission</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Programs</h3>
+                    <ul class="space-y-2">
+                        <li><a href="rpl.html" class="text-gray-400 hover:text-white transition duration-300">Software Engineering</a></li>
+                        <li><a href="tkj.html" class="text-gray-400 hover:text-white transition duration-300">Computer Networking</a></li>
+                        <li><a href="pg.html" class="text-gray-400 hover:text-white transition duration-300">Game Development</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>Alamat: Jl. Teluk Mandar Tromol Pos 5, 65126 Ajosari-Malang, Jawa Timur</li>
+                        <li>Email: bbppmpvboe@kemdikbud.go.id</li>
+                        <li>Email Pengaduan: pengaduanp4tkboe@kemdikbud.go.id</li>
+                        <li>Telepon: (0341) 491239, 495849</li>
+                        <li>Fax: (0341) 491342</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 SMK BOE Malang. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+
+        // Mobile menu functionality
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About SMK BOE Malang</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../assets/js/config.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="../assets/js/config.js"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hover-scale {
+            transition: transform 0.3s ease;
+        }
+        .hover-scale:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="scroll-smooth">
+    <header class="fixed w-full z-50">
+        <nav class="bg-white/90 backdrop-blur-md shadow-md">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between h-16">
+                    <div class="flex items-center">
+                        <a href="../index.html" class="text-2xl font-bold" style="color:#001BB7; transition:color 0.3s;">
+                            SMK BOE Malang
+                        </a>
+                    </div>
+                    <div class="hidden md:flex items-center space-x-8">
+                        <a href="../index.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">Home</a>
+                        <a href="about.html" class="text-gray-900 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">About</a>
+                        <a href="academic.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">Academic</a>
+                        <a href="admission.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">Admission</a>
+                        <a href="contact.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">Contact</a>
+                        <a href="extracurricular.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">Extracurricular</a>
+                        <a href="facilities.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">Facilities</a>
+                        <a href="news.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">News</a>
+                        <a href="ai-chat.html" class="text-white px-3 py-2 text-sm font-medium rounded-md transition duration-300" style="background-color:#001BB7;" onmouseover="this.style.backgroundColor='#001090'" onmouseout="this.style.backgroundColor='#001BB7'">AI Chat</a>
+                    </div>
+                    <div class="md:hidden flex items-center">
+                        <button class="text-gray-600 hover:text-gray-900 focus:outline-none" id="mobile-menu-button">
+                            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <!-- Mobile menu -->
+                <div class="hidden md:hidden" id="mobile-menu">
+                    <div class="px-2 pt-2 pb-3 space-y-1">
+                        <a href="../index.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary transition duration-300">Home</a>
+                        <a href="about.html" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-primary transition duration-300">About</a>
+                        <a href="academic.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary transition duration-300">Academic</a>
+                        <a href="admission.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary transition duration-300">Admission</a>
+                        <a href="contact.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary transition duration-300">Contact</a>
+                        <a href="extracurricular.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary transition duration-300">Extracurricular</a>
+                        <a href="facilities.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary transition duration-300">Facilities</a>
+                        <a href="news.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary transition duration-300">News</a>
+                        <a href="ai-chat.html" class="block px-3 py-2 text-base font-medium text-white rounded-md transition duration-300" style="background-color:#001BB7;" onmouseover="this.style.backgroundColor='#001090'" onmouseout="this.style.backgroundColor='#001BB7'">AI Chat</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pt-24">
+        <!-- Hero Section -->
+        <div class="relative bg-gray-900 py-16">
+            <div class="absolute inset-0">
+                <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-1.2.1&auto=format&fit=crop&q=80" alt="School Building">
+                <div class="absolute inset-0 bg-gray-900/70"></div>
+            </div>
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl" data-aos="fade-up">
+                        About SMK BOE Malang
+                    </h1>
+                    <p class="mt-6 max-w-3xl mx-auto text-xl text-gray-300" data-aos="fade-up" data-aos-delay="200">
+                        Building future tech leaders through quality education and innovation
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- History Section -->
+        <div class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="lg:text-center mb-16" data-aos="fade-up">
+                    <h2 class="text-base text-[#001BB7] font-semibold tracking-wide uppercase">Our History</h2>
+                    <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                        A Legacy of Excellence
+                    </p>
+                </div>
+                <div class="mt-8 lg:mt-0 lg:grid lg:grid-cols-2 lg:gap-12">
+                    <div data-aos="fade-right">
+                        <p class="text-lg text-gray-600 mb-8">
+                            SMK BOE Malang is a private vocational school established on June 14, 1992, under the auspices of the Telkom Education Foundation (YPT). The school specializes in Information Technology (IT) and has been recognized for its commitment to quality education.
+                        </p>
+                        <p class="text-lg text-gray-600">
+                            Over the years, we have consistently produced graduates who excel in their fields and contribute significantly to the technology sector both nationally and internationally.
+                        </p>
+                    </div>
+                    <div class="mt-8 lg:mt-0" data-aos="fade-left">
+                        <img class="rounded-lg shadow-lg" src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-1.2.1&auto=format&fit=crop&q=80" alt="School History">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vision & Mission -->
+        <div class="py-16 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="lg:text-center mb-16" data-aos="fade-up">
+                    <h2 class="text-base text-[#001BB7] font-semibold tracking-wide uppercase">Our Vision & Mission</h2>
+                    <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                        Shaping Tomorrow's Technology Leaders
+                    </p>
+                </div>
+                <div class="mt-10 grid gap-10 md:grid-cols-2">
+                    <!-- Vision -->
+                    <div class="bg-white rounded-lg shadow-lg p-8 hover-scale" data-aos="fade-up" data-aos-delay="100">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md text-white mb-6" style="background-color:#001BB7;">
+                            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Our Vision</h3>
+                        <p class="text-gray-600">
+                            To become a leading vocational school in technology education, producing graduates who are competent, innovative, and ready to compete in the global digital era.
+                        </p>
+                    </div>
+                    <!-- Mission -->
+                    <div class="bg-white rounded-lg shadow-lg p-8 hover-scale" data-aos="fade-up" data-aos-delay="200">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md text-white mb-6" style="background-color:#001BB7;">
+                            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2v16z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Our Mission</h3>
+                        <p class="text-gray-600">
+                            Our mission is to provide high-quality education that prepares students for successful careers in technology and related fields through:
+                        </p>
+                        <ul class="mt-4 space-y-2 text-gray-600">
+                            <li class="flex items-center">
+                                <svg class="h-5 w-5 text-[#001BB7] mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                Innovative teaching methods
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="h-5 w-5 text-[#001BB7] mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                Industry-standard facilities
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="h-5 w-5 text-[#001BB7] mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                Professional development
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">SMK BOE Malang</h3>
+                    <p class="text-gray-400">Shaping the future through technology and innovation</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="../index.html" class="text-gray-400 hover:text-white transition duration-300">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition duration-300">About</a></li>
+                        <li><a href="academic.html" class="text-gray-400 hover:text-white transition duration-300">Academic</a></li>
+                        <li><a href="admission.html" class="text-gray-400 hover:text-white transition duration-300">Admission</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition duration-300">Contact</a></li>
+                        <li><a href="extracurricular.html" class="text-gray-400 hover:text-white transition duration-300">Extracurricular</a></li>
+                        <li><a href="facilities.html" class="text-gray-400 hover:text-white transition duration-300">Facilities</a></li>
+                        <li><a href="news.html" class="text-gray-400 hover:text-white transition duration-300">News</a></li>
+                        <li><a href="ai-chat.html" class="text-gray-400 hover:text-white transition duration-300">AI Chat</a></li>
+                        <li><a href="admission.html" class="text-gray-400 hover:text-white transition duration-300">Admission</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Programs</h3>
+                    <ul class="space-y-2">
+                        <li><a href="departments/rpl.html" class="text-gray-400 hover:text-white transition duration-300">Software Engineering</a></li>
+                        <li><a href="departments/tkj.html" class="text-gray-400 hover:text-white transition duration-300">Computer Networking</a></li>
+                        <li><a href="departments/pg.html" class="text-gray-400 hover:text-white transition duration-300">Game Development</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>Alamat: Jl. Teluk Mandar Tromol Pos 5, 65126 Ajosari-Malang, Jawa Timur</li>
+                        <li>Email: bbppmpvboe@kemdikbud.go.id</li>
+                        <li>Email Pengaduan: pengaduanp4tkboe@kemdikbud.go.id</li>
+                        <li>Telepon: (0341) 491239, 495849</li>
+                        <li>Fax: (0341) 491342</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 SMK BOE Malang. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+
+        // Mobile menu functionality
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
