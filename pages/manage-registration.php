@@ -8,7 +8,7 @@ $registrationData = null;
 
 // Function to find registration by name and class
 function findRegistration($nama, $kelas) {
-    $csv_file = '../assets/data/pendaftaran-ekskul.csv';
+    $csv_file = '../assets/data/pendaftaran-ekskur.csv';
     if (file_exists($csv_file) && ($handle = fopen($csv_file, "r")) !== FALSE) {
         // Skip header
         fgetcsv($handle);
