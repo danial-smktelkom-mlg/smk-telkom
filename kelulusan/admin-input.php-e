@@ -33,7 +33,7 @@ require_once 'config.php';
                 <div class="flex justify-between h-16">
                     <div class="flex items-center">
                         <a href="../index.html" class="text-2xl font-bold" style="color: var(--primary-color)">
-                            SMK Telkom Malang
+                            SMK BOE Malang
                         </a>
                     </div>
                     <div class="hidden md:flex items-center space-x-8">

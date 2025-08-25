@@ -21,7 +21,7 @@ This project is a website for SMK Telkom Malang, designed to provide a responsiv
 ## Project Structure
 
 ```
-smk-telkom-malang
+smk-boe
 ├── index.html               # Main entry point of the website
 ├── assets/
 │   ├── css/

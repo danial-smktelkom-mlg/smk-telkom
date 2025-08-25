@@ -16,7 +16,7 @@ $pdf->AddPage();
 
 // Use Helvetica since we confirmed the files exist in assets/font
 $pdf->SetFont('Helvetica','B',14);
-$pdf->Cell(0,10,'Daftar Kelulusan Siswa SMK Telkom Malang',0,1,'C');
+$pdf->Cell(0,10,'Daftar Kelulusan Siswa SMK BOE Malang',0,1,'C');
 $pdf->Ln(5);
 
 $pdf->SetFont('Helvetica','B',10);

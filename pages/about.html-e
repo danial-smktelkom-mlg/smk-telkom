@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About SMK Telkom Malang</title>
+    <title>About SMK BOE Malang</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="../assets/js/config.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -29,7 +29,7 @@
                 <div class="flex justify-between h-16">
                     <div class="flex items-center">
                         <a href="../index.html" class="text-2xl font-bold" style="color:#001BB7; transition:color 0.3s;">
-                            SMK Telkom Malang
+                            SMK BOE Malang
                         </a>
                     </div>
                     <div class="hidden md:flex items-center space-x-8">
@@ -79,7 +79,7 @@
             <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center">
                     <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl" data-aos="fade-up">
-                        About SMK Telkom Malang
+                        About SMK BOE Malang
                     </h1>
                     <p class="mt-6 max-w-3xl mx-auto text-xl text-gray-300" data-aos="fade-up" data-aos-delay="200">
                         Building future tech leaders through quality education and innovation
@@ -100,7 +100,7 @@
                 <div class="mt-8 lg:mt-0 lg:grid lg:grid-cols-2 lg:gap-12">
                     <div data-aos="fade-right">
                         <p class="text-lg text-gray-600 mb-8">
-                            SMK Telkom Malang is a private vocational school established on June 14, 1992, under the auspices of the Telkom Education Foundation (YPT). The school specializes in Information Technology (IT) and has been recognized for its commitment to quality education.
+                            SMK BOE Malang is a private vocational school established on June 14, 1992, under the auspices of the Telkom Education Foundation (YPT). The school specializes in Information Technology (IT) and has been recognized for its commitment to quality education.
                         </p>
                         <p class="text-lg text-gray-600">
                             Over the years, we have consistently produced graduates who excel in their fields and contribute significantly to the technology sector both nationally and internationally.
@@ -177,7 +177,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div>
-                    <h3 class="text-lg font-semibold mb-4">SMK Telkom Malang</h3>
+                    <h3 class="text-lg font-semibold mb-4">SMK BOE Malang</h3>
                     <p class="text-gray-400">Shaping the future through technology and innovation</p>
                 </div>
                 <div>
@@ -215,7 +215,7 @@
                 </div>
             </div>
             <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-                <p>&copy; 2025 SMK Telkom Malang. All rights reserved.</p>
+                <p>&copy; 2025 SMK BOE Malang. All rights reserved.</p>
             </div>
         </div>
     </footer>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admission - SMK Telkom Malang</title>
+    <title>Admission - SMK BOE Malang</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="../assets/js/config.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -28,7 +28,7 @@
                 <div class="flex justify-between h-16">
                     <div class="flex items-center">
                         <a href="../index.html" class="text-2xl font-bold" style="color:#001BB7; transition:color 0.3s;">
-                            SMK Telkom Malang
+                            SMK BOE Malang
                         </a>
                     </div>
                     <div class="hidden md:flex items-center space-x-8">
@@ -72,7 +72,7 @@
     <main class="pt-24 pb-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div data-aos="fade-up" class="text-center mb-12">
             <h1 class="text-4xl font-bold text-gray-900 mb-4">Admission Information</h1>
-            <p class="text-lg text-gray-600 max-w-2xl mx-auto">Take your first step towards a bright future with SMK Telkom Malang</p>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">Take your first step towards a bright future with SMK BOE Malang</p>
         </div>
 
         <section data-aos="fade-up" class="bg-white rounded-2xl shadow-xl p-8 mb-12">
@@ -175,7 +175,7 @@
 
         <section data-aos="fade-up" style="background:linear-gradient(to right, #001BB7, #001090)" class="rounded-2xl shadow-xl p-8 text-center text-white">
             <h2 class="text-2xl font-bold mb-4">Ready to Begin Your Journey?</h2>
-            <p class="text-lg mb-6">Take the first step towards your future at SMK Telkom Malang</p>
+            <p class="text-lg mb-6">Take the first step towards your future at SMK BOE Malang</p>
             <button class="bg-white px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300" style="color:#001BB7;" onmouseover="this.style.color='#001090'" onmouseout="this.style.color='#001BB7'">
                 Apply Now
             </button>
@@ -186,7 +186,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div>
-                    <h3 class="text-lg font-semibold mb-4">SMK Telkom Malang</h3>
+                    <h3 class="text-lg font-semibold mb-4">SMK BOE Malang</h3>
                     <p class="text-gray-400">Shaping the future through technology and innovation</p>
                 </div>
                 <div>
@@ -218,7 +218,7 @@
                 </div>
             </div>
             <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-                <p>&copy; 2025 SMK Telkom Malang. All rights reserved.</p>
+                <p>&copy; 2025 SMK BOE Malang. All rights reserved.</p>
             </div>
         </div>
     </footer>

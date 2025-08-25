@@ -46,7 +46,7 @@ if (!$registration) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit Registration - SMK Telkom Malang</title>
+    <title>Edit Registration - SMK BOE Malang</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="../../assets/js/config.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">

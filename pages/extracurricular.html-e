@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Extracurricular Activities - SMK Telkom Malang</title>
+    <title>Extracurricular Activities - SMK BOE Malang</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="../assets/js/config.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -22,7 +22,7 @@
                 <div class="flex justify-between h-16">
                     <div class="flex items-center">
                         <a href="../index.html" class="text-2xl font-bold" style="color:#001BB7; transition:color 0.3s;">
-                            SMK Telkom Malang
+                            SMK BOE Malang
                         </a>
                     </div>
                     <div class="hidden md:flex items-center space-x-8">
@@ -72,7 +72,7 @@
             <div class="relative py-16 text-center" data-aos="fade-up">
                 <h1 class="text-4xl font-bold text-white mb-4">Extracurricular Activities</h1>
                 <p class="text-lg text-gray-300 max-w-3xl mx-auto px-4 mb-8">
-                    Discover a wide range of activities to enhance your skills, pursue your interests, and develop your talents at SMK Telkom Malang.
+                    Discover a wide range of activities to enhance your skills, pursue your interests, and develop your talents at SMK BOE Malang.
                 </p>
                 <a href="extracurricular-registration.php" 
                    class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition duration-300">
@@ -262,7 +262,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div>
-                    <h3 class="text-lg font-semibold mb-4">SMK Telkom Malang</h3>
+                    <h3 class="text-lg font-semibold mb-4">SMK BOE Malang</h3>
                     <p class="text-gray-400">Shaping the future through technology and innovation</p>
                 </div>
                 <div>
@@ -294,7 +294,7 @@
                 </div>
             </div>
             <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-                <p>&copy; 2025 SMK Telkom Malang. All rights reserved.</p>
+                <p>&copy; 2025 SMK BOE Malang. All rights reserved.</p>
             </div>
         </div>
     </footer>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News - SMK Telkom Malang</title>
+    <title>News - SMK BOE Malang</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="../assets/js/config.js"></script>
     <script>
@@ -38,7 +38,7 @@
                 <div class="flex justify-between h-16">
                     <div class="flex items-center">
                         <a href="../index.html" class="text-2xl font-bold" style="color:#001BB7; transition:color 0.3s;">
-                            SMK Telkom Malang
+                            SMK BOE Malang
                         </a>
                     </div>
                     <div class="hidden md:flex items-center space-x-8">
@@ -88,7 +88,7 @@
             <div class="relative py-16 text-center" data-aos="fade-up">
                 <h1 class="text-4xl font-bold text-white mb-4">Latest News</h1>
                 <p class="text-lg text-gray-300 max-w-3xl mx-auto px-4">
-                    Stay updated with the latest news, events, and achievements from SMK Telkom Malang.
+                    Stay updated with the latest news, events, and achievements from SMK BOE Malang.
                 </p>
             </div>
         </section>
@@ -111,7 +111,7 @@
                         </div>
                         <h2 class="text-xl font-bold text-gray-900 mb-3 hover:text-primary transition duration-300">Pengumuman Kelulusan Siswa</h2>
                         <p class="text-gray-600 mb-4">
-                            Pengumuman kelulusan untuk siswa-siswi SMK Telkom Malang telah tersedia. Silakan cek status kelulusan Anda melalui sistem informasi kelulusan.
+                            Pengumuman kelulusan untuk siswa-siswi SMK BOE Malang telah tersedia. Silakan cek status kelulusan Anda melalui sistem informasi kelulusan.
                         </p>
                         <a href="../kelulusan/home.php" class="inline-flex items-center text-primary hover:text-primary-dark font-medium group">
                             Cek Kelulusan 
@@ -163,7 +163,7 @@
                         </div>
                         <h2 class="text-xl font-bold text-gray-900 mb-3 hover:text-primary transition duration-300">New Technology Lab Launch</h2>
                         <p class="text-gray-600 mb-4">
-                            SMK Telkom Malang inaugurates a state-of-the-art technology lab equipped with the latest tools and resources for student learning.
+                            SMK BOE Malang inaugurates a state-of-the-art technology lab equipped with the latest tools and resources for student learning.
                         </p>
                         <a href="#" class="inline-flex items-center text-primary hover:text-primary-dark font-medium group">
                             Read more 
@@ -257,7 +257,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div>
-                    <h3 class="text-lg font-semibold mb-4">SMK Telkom Malang</h3>
+                    <h3 class="text-lg font-semibold mb-4">SMK BOE Malang</h3>
                     <p class="text-gray-400">Shaping the future through technology and innovation</p>
                 </div>
                 <div>
@@ -289,7 +289,7 @@
                 </div>
             </div>
             <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-                <p>&copy; 2025 SMK Telkom Malang. All rights reserved.</p>
+                <p>&copy; 2025 SMK BOE Malang. All rights reserved.</p>
             </div>
         </div>
     </footer>

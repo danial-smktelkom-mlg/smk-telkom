@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Software Engineering (RPL) - SMK Telkom Malang</title>
+    <title>Software Engineering (RPL) - SMK BOE Malang</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="../../assets/js/config.js"></script>
     <script>
@@ -40,7 +40,7 @@
                 <div class="flex justify-between h-16">
                     <div class="flex items-center">
                         <a href="../../index.html" class="text-2xl font-bold text-primary hover:text-primary-dark transition duration-300">
-                            SMK Telkom Malang
+                            SMK BOE Malang
                         </a>
                     </div>
                     <div class="hidden md:flex items-center space-x-8">
@@ -103,7 +103,7 @@
                 <div class="bg-white rounded-xl shadow-lg p-8">
                     <h2 class="text-2xl font-bold text-gray-900 mb-6">Program Description</h2>
                     <p class="text-gray-600 mb-6">
-                        The Software Engineering program (RPL) at SMK Telkom Malang is designed to provide students with comprehensive knowledge and skills in software development. Our program covers various aspects including system analysis, software design, programming, and testing. Students will learn to use various programming languages and development tools to create innovative applications.
+                        The Software Engineering program (RPL) at SMK BOE Malang is designed to provide students with comprehensive knowledge and skills in software development. Our program covers various aspects including system analysis, software design, programming, and testing. Students will learn to use various programming languages and development tools to create innovative applications.
                     </p>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <div>
@@ -225,7 +225,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div>
-                    <h3 class="text-lg font-semibold mb-4">SMK Telkom Malang</h3>
+                    <h3 class="text-lg font-semibold mb-4">SMK BOE Malang</h3>
                     <p class="text-gray-400">Shaping the future through technology and innovation</p>
                 </div>
                 <div>
@@ -257,7 +257,7 @@
                 </div>
             </div>
             <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-                <p>&copy; 2024 SMK Telkom Malang. All rights reserved.</p>
+                <p>&copy; 2024 SMK BOE Malang. All rights reserved.</p>
             </div>
         </div>
     </footer>
