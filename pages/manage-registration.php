@@ -140,8 +140,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             font-family: 'Inter', sans-serif;
         }
         .form-input:focus, .form-select:focus {
-            border-color: #001BB7;
-            box-shadow: 0 0 0 1px #001BB7;
+            border-color: #FF0000;
+            box-shadow: 0 0 0 1px #FF0000;
         }
     </style>
 </head>
@@ -150,7 +150,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
                 <div class="flex items-center">
-                    <a href="../index.html" class="text-2xl font-bold text-[#001BB7] hover:text-[#001BB7]/90 transition">
+                    <a href="../index.html" class="text-2xl font-bold text-[#FF0000] hover:text-[#FF0000]/90 transition">
                         SMK Telkom Malang
                     </a>
                 </div>
@@ -159,7 +159,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         Daftar Ekstrakurikuler
                     </a>
                     <a href="extracurricular-registration.php" 
-                        class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-lg text-white bg-[#001BB7] hover:bg-[#001BB7]/90 transition duration-150 ease-in-out shadow-sm">
+                        class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-lg text-white bg-[#FF0000] hover:bg-[#FF0000]/90 transition duration-150 ease-in-out shadow-sm">
                         Form Pendaftaran
                     </a>
                 </div>
@@ -169,7 +169,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
-            <div class="px-6 py-4 bg-[#001BB7]/5 border-b border-gray-200">
+            <div class="px-6 py-4 bg-[#FF0000]/5 border-b border-gray-200">
                 <h2 class="text-xl font-semibold text-gray-900">Kelola Pendaftaran Ekstrakurikuler</h2>
                 <p class="mt-1 text-sm text-gray-600">Cari dan kelola pendaftaran ekstrakurikuler Anda</p>
             </div>
@@ -200,20 +200,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <div>
                             <label for="nama" class="block text-sm font-medium text-gray-700">Nama Lengkap</label>
                             <input type="text" name="nama" id="nama" required 
-                                class="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-[#001BB7] focus:ring-[#001BB7] sm:text-sm transition duration-150 ease-in-out">
+                                class="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-[#FF0000] focus:ring-[#FF0000] sm:text-sm transition duration-150 ease-in-out">
                         </div>
 
                         <div>
                             <label for="kelas" class="block text-sm font-medium text-gray-700">Kelas</label>
                             <input type="text" name="kelas" id="kelas" required 
-                                class="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-[#001BB7] focus:ring-[#001BB7] sm:text-sm transition duration-150 ease-in-out"
+                                class="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-[#FF0000] focus:ring-[#FF0000] sm:text-sm transition duration-150 ease-in-out"
                                 placeholder="Contoh: X RPL 1">
                         </div>
                     </div>
 
                     <div>
                         <button type="submit" 
-                            class="w-full flex justify-center py-2 px-4 border border-transparent rounded-lg shadow-sm text-sm font-medium text-white bg-[#001BB7] hover:bg-[#001BB7]/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#001BB7] transition duration-150 ease-in-out">
+                            class="w-full flex justify-center py-2 px-4 border border-transparent rounded-lg shadow-sm text-sm font-medium text-white bg-[#FF0000] hover:bg-[#FF0000]/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#FF0000] transition duration-150 ease-in-out">
                             Cari Pendaftaran
                         </button>
                     </div>

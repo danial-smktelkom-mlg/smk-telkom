@@ -46,7 +46,7 @@ smk-telkom-malang
 │   ├── about.html        # School information
 │   ├── academic.html     # Academic programs
 │   ├── admission.html    # Admission process
-│   ├── ai-chat.html      # AI Chat assistant
+
 │   ├── contact.html      # Contact information
 │   ├── departments/
 │   │   ├── pg.html      # Game Development
@@ -72,7 +72,7 @@ smk-telkom-malang
 - Responsive design with custom CSS
 - Interactive features with JavaScript
 - Clean and modern user interface
-- AI-powered chat assistant for student inquiries
+
 
 ### Graduation System
 - Secure authentication system

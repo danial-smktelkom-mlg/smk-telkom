@@ -1,0 +1,67 @@
+:root {
+    --primary-color: #E42313;
+    --primary-dark: #CC0000;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Hover Effects */
+.hover-scale {
+    transition: transform 0.3s ease;
+}
+.hover-scale:hover {
+    transform: scale(1.05);
+}
+
+/* Text Hover Effects */
+.text-primary {
+    color: var(--primary-color);
+}
+.hover\:text-primary:hover {
+    color: var(--primary-color);
+}
+.hover\:text-primary-dark:hover {
+    color: var(--primary-dark);
+}
+
+/* Background Hover Effects */
+.bg-primary {
+    background-color: var(--primary-color);
+}
+.hover\:bg-primary:hover {
+    background-color: var(--primary-color);
+}
+.hover\:bg-primary-dark:hover {
+    background-color: var(--primary-dark);
+}
+
+/* Button Hover Effects */
+.btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+    transition: all 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+    transform: scale(1.05);
+}
+
+/* Link Hover Effects */
+.nav-link {
+    transition: color 0.3s ease;
+}
+.nav-link:hover {
+    color: var(--primary-color);
+}
+
+/* Card Hover Effects */
+.card-hover {
+    transition: all 0.3s ease;
+}
+.card-hover:hover {
+    transform: scale(1.02);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}

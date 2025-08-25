@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <style>
         :root {
-            --primary-color: #001BB7;
-            --primary-dark: #001694;
+            --primary-color: #FF0000;
+            --primary-dark: #CC0000;
         }
         body {
             font-family: 'Inter', sans-serif;
@@ -36,7 +36,7 @@
                         <a href="../pages/extracurricular.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">Extracurricular</a>
                         <a href="../pages/facilities.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">Facilities</a>
                         <a href="../pages/news.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition duration-300">News</a>
-                        <a href="../pages/ai-chat.html" class="text-white px-3 py-2 text-sm font-medium rounded-md transition duration-300" style="background-color: var(--primary-color);">AI Chat</a>
+
                     </div>
                 </div>
             </div>

@@ -23,8 +23,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary-color: #001BB7;
-            --primary-dark: #001694;
+            --primary-color: #FF0000;
+            --primary-dark: #CC0000;
         }
         body {
             font-family: 'Inter', sans-serif;
